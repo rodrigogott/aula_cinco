@@ -8,7 +8,7 @@
 		
 		//var meuNome = "Rodrigo"
 
-		function nomeSomaFN(){
+		function nomeConsole(){
 			//var soma = a=b;
 			//var nome = '';
 			var nome = window.prompt("quem é você?");
@@ -16,20 +16,17 @@
 			console.log("Letras: "+nome.length);
 
 			function condicao(){
-				if(nome.lenght > 0){
-					return "Você preencheu seu nome";
+				if(nome.lenght > 2){
+					return "Olá "+nome+". Você tem "+nome.lenght+" letras";
+				}else if (nome.lenght < 3 && nome.lenght > 0){
+					return "Você prencheu seu nome errado"
 				} else {
 					return "Você não preencheu seu nome";
 				}	
 			}
-			
-			
-			
-			
-
 		console.log(condicao());
 	}
-	nomeSomaFN();
+	nomeConsole();
 	</script>
 </head>
 <body>
