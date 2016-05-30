@@ -2,7 +2,7 @@
 ## Curso de html, css, javascript e *angulasjs*
 
 **Arquivos Commitados**
-*index.html
-*README.md
-*vendor
- *bootstrap
+* index.html
+* README.md
+* vendor
+  * bootstrap
